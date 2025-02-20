@@ -38,7 +38,7 @@ function cheakWin() {
 
         if (v0 != "" && v0 === v1 && v0 === v2) {
             isGameOver = true;
-            document.querySelector("#resultat").innerHTML = spiller + " win ";
+            document.querySelector("#resultat").innerHTML = spiller + " er vinneren ";
             document.querySelector("#ny-runde").style.display = "inline"
 
 
