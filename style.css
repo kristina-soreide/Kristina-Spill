@@ -84,4 +84,6 @@ body{
 }
 #ny-runde:hover{
     padding: 10px 40px;
+    background-color: blue;
+    color: black;
 }
