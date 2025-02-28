@@ -14,6 +14,7 @@ bokser.forEach(e => {
         }
     })
 })
+//bytter spillere når x blir til o og omvendt
 function changeSpiller() {
     if (spiller === "X") {
         spiller = "O";
@@ -25,6 +26,7 @@ function changeSpiller() {
     }
 
 }
+//personen vinner når tallene er: 
 function cheakWin() {
     let winConditions = [
         [0, 1, 2], [3, 4, 5], [6, 7, 8],
